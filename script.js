@@ -55,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const backToBlogBtn = document.getElementById('back-to-blog');
     const fullPostContent = document.querySelector('.full-post');
     
-    // Datos de los posts (podrías cargarlos desde un JSON)
     const postsData = {
         recurrencia: {
             title: 'Recurrencia y Árboles Binarios',
@@ -328,7 +327,6 @@ document.addEventListener('DOMContentLoaded', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
     
-    // Formulario de contacto
     const contactForm = document.querySelector('.contact-form');
     
     if (contactForm) {
@@ -339,12 +337,10 @@ document.addEventListener('DOMContentLoaded', function() {
             submitBtn.disabled = true;
             submitBtn.textContent = 'Enviando...';
             
-            // Simular envío
             setTimeout(() => {
                 submitBtn.textContent = 'Mensaje Enviado!';
                 submitBtn.style.backgroundColor = '#28a745';
                 
-                // Resetear después de 2 segundos
                 setTimeout(() => {
                     contactForm.reset();
                     submitBtn.disabled = false;
@@ -357,17 +353,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-// Array Interactive Section
 function initArrayInteractive() {
     const arrayContainer = document.getElementById('array-container');
     const arrayInfo = document.getElementById('array-info');
     let currentArray = [];
     let arraySize = 5;
     
-    // Initialize with sample array
     createRandomArray();
     
-    // Event listeners
     document.getElementById('create-array').addEventListener('click', createRandomArray);
     document.getElementById('insert-value').addEventListener('click', insertValue);
     document.getElementById('delete-value').addEventListener('click', deleteValue);
@@ -419,7 +412,6 @@ function initArrayInteractive() {
         currentArray.splice(index, 0, value);
         renderArray();
         
-        // Highlight the inserted element
         const elements = document.querySelectorAll('.array-element');
         elements[index].classList.add('highlight');
         
@@ -460,7 +452,6 @@ function initArrayInteractive() {
             return;
         }
         
-        // Highlight all occurrences
         currentArray.forEach((val, i) => {
             if (val === value) {
                 elements[i].classList.add('highlight');
@@ -487,11 +478,8 @@ function initArrayInteractive() {
     }
 }
 
-// Llamar a la función cuando se cargue el post de arreglos
 document.addEventListener('DOMContentLoaded', function() {
-    // ... (código existente)
     
-    // Inicializar la sección interactiva cuando se muestra el post de arreglos
     const readMoreBtns = document.querySelectorAll('.read-more');
     readMoreBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
