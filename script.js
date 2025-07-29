@@ -59,11 +59,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const postsData = {
         recurrencia: {
             title: 'Recurrencia y Árboles Binarios',
-            date: '15/06/2023',
+            date: '15/06/2025',
             content: `
                 <h2>Recurrencia y Árboles Binarios</h2>
                 <div class="post-meta">
-                    <span class="post-date">Publicado: 15/06/2023</span>
+                    <span class="post-date">Publicado: 15/06/2025</span>
                     <span class="post-category">Recurrencia y Árboles</span>
                 </div>
                 <div class="post-content">
@@ -98,11 +98,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         fundamentos: {
             title: 'Fundamentos de Programación',
-            date: '10/06/2023',
+            date: '10/06/2025',
             content: `
                 <h2>Fundamentos de Programación</h2>
                 <div class="post-meta">
-                    <span class="post-date">Publicado: 10/06/2023</span>
+                    <span class="post-date">Publicado: 10/06/2025</span>
                     <span class="post-category">Fundamentos</span>
                 </div>
                 <div class="post-content">
@@ -140,11 +140,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         arreglos: {
             title: 'Arreglos: La estructura más básica',
-            date: '05/06/2023',
+            date: '05/06/2025',
             content: `
                 <h2>Arreglos: La estructura más básica</h2>
                 <div class="post-meta">
-                    <span class="post-date">Publicado: 05/06/2023</span>
+                    <span class="post-date">Publicado: 05/06/2025</span>
                     <span class="post-category">Arreglos</span>
                 </div>
                 <div class="post-content">
@@ -232,11 +232,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         poo: {
             title: 'POO: Principios y Patrones',
-            date: '01/06/2023',
+            date: '01/06/2025',
             content: `
                 <h2>POO: Principios y Patrones</h2>
                 <div class="post-meta">
-                    <span class="post-date">Publicado: 01/06/2023</span>
+                    <span class="post-date">Publicado: 01/06/2025</span>
                     <span class="post-category">Programación Orientada a Objetos</span>
                 </div>
                 <div class="post-content">
@@ -272,11 +272,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         economia: {
             title: 'Microeconomía para Developers',
-            date: '25/05/2023',
+            date: '25/05/2025',
             content: `
                 <h2>Microeconomía para Developers</h2>
                 <div class="post-meta">
-                    <span class="post-date">Publicado: 25/05/2023</span>
+                    <span class="post-date">Publicado: 25/05/2025</span>
                     <span class="post-category">Microeconomía</span>
                 </div>
                 <div class="post-content">
