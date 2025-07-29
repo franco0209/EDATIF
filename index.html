@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Estructura de Datos y Algoritmos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>EDATIF</h1>
+                <p>Explorando estructuras de datos y algoritmos</p> 
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#temas">Temas</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Domina los fundamentos de la programación</h2>
+            <p>Aprende sobre estructuras de datos, algoritmos y conceptos económicos aplicados a la informática</p>
+            <a href="#temas" class="cta-button">Explorar Temas</a>
+        </div>
+    </section>
+
+    <section id="temas" class="blog-section">
+        <h2 class="section-title">Temas del Blog</h2>
+        <div class="categories">
+            <button class="category-btn active" data-category="all">Todos</button>
+            <button class="category-btn" data-category="recurrencia">Recurrencia y Árboles</button>
+            <button class="category-btn" data-category="fundamentos">Fundamentos</button>
+            <button class="category-btn" data-category="arreglos">Arreglos</button>
+            <button class="category-btn" data-category="poo">POO</button>
+            <button class="category-btn" data-category="economia">Microeconomía</button>
+        </div>
+
+        <div class="blog-posts">
+            <!-- Post 1: Recurrencia y Árboles -->
+            <article class="blog-post" data-category="recurrencia">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1549558549-415fe4c37b60?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Árboles binarios">
+                    <div class="post-date">Publicado: 28/07/2025</div>
+                </div>
+                <div class="post-content">
+                    <h3>Recurrencia y Árboles Binarios</h3>
+                    <p class="post-excerpt">Los árboles binarios son estructuras de datos fundamentales en computación. En este artículo exploraremos su relación con las relaciones de recurrencia...</p>
+                    <a href="#" class="read-more" data-post="recurrencia">Leer más</a>
+                </div>
+            </article>
+
+            <!-- Post 2: Fundamentos -->
+            <article class="blog-post" data-category="fundamentos">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Fundamentos de programación">
+                    <div class="post-date">Publicado: 28/07/2025</div>
+                </div>
+                <div class="post-content">
+                    <h3>Fundamentos de Programación</h3>
+                    <p class="post-excerpt">Los conceptos básicos son esenciales para cualquier programador. Repasamos variables, estructuras de control y los principios algorítmicos fundamentales...</p>
+                    <a href="#" class="read-more" data-post="fundamentos">Leer más</a>
+                </div>
+            </article>
+
+            <!-- Post 3: Arreglos -->
+            <article class="blog-post" data-category="arreglos">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Arreglos y matrices">
+                    <div class="post-date">Publicado: 28/07/2025</div>
+                </div>
+                <div class="post-content">
+                    <h3>Arreglos: La estructura más básica</h3>
+                    <p class="post-excerpt">Los arreglos son la estructura de datos más simple pero también una de las más importantes. Analizamos su complejidad y usos avanzados...</p>
+                    <a href="#" class="read-more" data-post="arreglos">Leer más</a>
+                </div>
+            </article>
+
+            <!-- Post 4: POO -->
+            <article class="blog-post" data-category="poo">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Programación Orientada a Objetos">
+                    <div class="post-date">Publicado: 28/07/2025</div>
+                </div>
+                <div class="post-content">
+                    <h3>POO: Principios y Patrones</h3>
+                    <p class="post-excerpt">La programación orientada a objetos revolucionó el desarrollo de software. Exploramos los 4 pilares y patrones de diseño comunes...</p>
+                    <a href="#" class="read-more" data-post="poo">Leer más</a>
+                </div>
+            </article>
+
+            <!-- Post 5: Microeconomía -->
+            <article class="blog-post" data-category="economia">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Microeconomía aplicada">
+                    <div class="post-date">Publicado: 28/07/2025</div>
+                </div>
+                <div class="post-content">
+                    <h3>Microeconomía para Developers</h3>
+                    <p class="post-excerpt">Cómo los conceptos económicos como costos de oportunidad y elasticidad se aplican en la toma de decisiones tecnológicas...</p>
+                    <a href="#" class="read-more" data-post="economia">Leer más</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="post-detail" class="post-detail-section hidden">
+        <button id="back-to-blog" class="back-button"><i class="fas fa-arrow-left"></i> Volver al blog</button>
+        <article class="full-post">
+            <!-- Contenido dinámico se insertará aquí con JavaScript -->
+        </article>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <h2 class="section-title">Contacto</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Asunto</label>
+                <select id="subject" name="subject">
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="colaboracion">Colaboración</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Blog</h3>
+                <p>Blog educativo sobre estructuras de datos, algoritmos y microeconomía aplicada.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#temas">Temas</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>URL del Blog</h3>
+                <p><a href="https://tudominio.github.io/blog-algoritmos" target="_blank">https://tudominio.github.io/blog-algoritmos</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Blog de Estructura de Datos y Algoritmos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
